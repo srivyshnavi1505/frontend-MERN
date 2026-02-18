@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 100px;
+    background-color: rgb(216, 216, 216);
+}
+
+.top{
+    margin-top: 50px;
+    margin : 100px 100px;
+    
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.top h1{
+    font-size: 5rem;
+}
+.top button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(60, 129, 248);
+    color: aliceblue;
+    border :rgb(122, 167, 245);
+    border-radius: 10px;
+}
+
+.bottom{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    gap:50px;
+}
+
+.card{
+    
+     width: 300px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px rgb(242, 242, 242);
+    justify-content: left;
+    background-color:whitesmoke;
+}
+
+.card h5{
+    font-size: 2rem;
+}
+
+.card button{
+    background-color: grey;
+    color: aliceblue;
+    padding:5px;
+    border: whitesmoke;
+    border-radius: 5px;
+}
+
+
+
+.footer{
+    background-color: whitesmoke;
+    color: grey;
+}
